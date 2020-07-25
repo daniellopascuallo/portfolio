@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+}
+
+#wrapper {
+    background-color: rgb(245, 237, 237);
+    width: 795px;
+    height: 850px;
+    margin: 0px auto;
+    
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.title {
+    margin: 5px
+}
+
+main {
+    background-color: rgb(104, 52, 104);
+    height: 700px;
+
+}
+
+#main_top {
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#profile_pic {
+    width: 320px;
+    height: 200px;
+    border: 5px solid gray;
+}
+
+#introduction {
+    width: 320px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.box_title {
+    background-color: gray;
+    color: rgb(216, 209, 209);
+    margin: 0px 0px;
+    padding: 5px;
+}
+
+p {
+    background-color: lightgray;
+    margin: 0px;
+    padding: 10px;
+}
+
+.link {
+    padding: 5px;
+    background-color: lightgray;
+    height: 40px;
+}
+
+#container_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_bottom {
+    height: 400px;
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+.pic {
+    height: 125px;
+    width: 225px;
+}
+
+.box_technologies {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.container_btn {
+    background-color: lightgray;
+    height: 50px;
+    width: 205px;
+    padding: 10px;
+}
+
+.btn {
+    background-color: rgb(6, 129, 6);
+    height: 40px;
+    width: 50px;
+    color: rgb(216, 209, 209);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px 0px 0px 80px;
+}
+
+footer {
+    width: 795px;
+    height: 84px;
+}
+
+#social_media {
+    margin-top: 0px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#info {
+    text-align: center;
+}
+
+
+
+
